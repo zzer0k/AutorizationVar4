@@ -1,0 +1,16 @@
+﻿<Application x:Class="AutorizationVar4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AutorizationVar4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+       
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#cf2f44"/>
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Times New Roman"/>
+        </Style>
+    </Application.Resources>
+</Application>
